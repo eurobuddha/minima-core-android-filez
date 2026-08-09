@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Node-only: no INTERNET permission. All data comes from the local Minima Core node over the
+         broadcast-Intent IPC. Package visibility lets us launch the node app + deliver targeted broadcasts. -->
+    <queries>
+        <package android:name="org.minimarex.minimacore" />
+        <!-- So the "node too old" banner can deep-link into the store -->
+        <package android:name="com.eurobuddha.pandaapps" />
+    </queries>
+
+    <!-- allowBackup=false: the whole apks/ fleet was scaffolded with allowBackup="true" and empty backup
+         rules, so Android Auto Backup uploaded each app's entire data directory to the user's cloud and
+         restored it on reinstall. Harmless-looking apps still carried the node pairing token, and a
+         reinstall must be a true reset everywhere, not just in the apps holding keys.
+         At stake here: only transient staging in the cache dir; the real files live in the node's own folder. The shared
+         minima_api_prefs pairing token was the only durable thing being carried off-device -->
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Utxo"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Serves files the user picked for IMPORT: they are staged into cache/imports/ and the
+             node package is granted read on the URI so it can copy the bytes into its base folder. -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.eurobuddha.filez.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Android 12+ backup/transfer rules. Cloud backup AND device transfer (Smart Switch) are
+   governed separately — both are excluded.
+
+   Nothing in this app needs to leave the device, and nothing here should survive a reinstall onto a node
+   with different keys. allowBackup="false" already disables this; the excludes are explicit so the intent
+   survives anyone flipping that flag back. What was being carried:
+   only transient staging in the cache dir; the real files live in the node's own folder. The shared
+         minima_api_prefs pairing token was the only durable thing being carried off-device
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="." />
+        <exclude domain="database" path="." />
+        <exclude domain="file" path="." />
+        <exclude domain="external" path="." />
+        <exclude domain="root" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="." />
+        <exclude domain="database" path="." />
+        <exclude domain="file" path="." />
+        <exclude domain="external" path="." />
+        <exclude domain="root" path="." />
+    </device-transfer>
+</data-extraction-rules>

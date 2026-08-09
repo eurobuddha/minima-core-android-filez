@@ -1,0 +1,235 @@
+{
+  "communities": {
+    "0": [
+      "app_src_main_java_com_eurobuddha_filez_fileentry",
+      "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
+      "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry_fileentry",
+      "app_src_main_java_com_eurobuddha_filez_fileentry_java_jsonobject",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_onbindviewholder",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptnewfolder",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptrename",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_startexport",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_terminalpathfor",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb_text",
+      "app_src_main_java_com_eurobuddha_filez_util",
+      "app_src_main_java_com_eurobuddha_filez_util_util",
+      "app_src_main_java_com_eurobuddha_filez_util_util_formatbytes",
+      "app_src_main_java_com_eurobuddha_filez_util_util_formatdate",
+      "app_src_main_java_com_eurobuddha_filez_util_util_getextension",
+      "app_src_main_java_com_eurobuddha_filez_util_util_joinpath",
+      "app_src_main_java_com_eurobuddha_filez_util_util_safename",
+      "linearlayout"
+    ],
+    "1": [
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_createbackup",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doexport",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_fetchnoderoot",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfiletimeout",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showmainmenu",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_cb_onerror",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_cb_onresult",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_java_handler",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_java_jsonobject",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_java_uri",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_cmd",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_dead",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_file",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_nodeapi",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_timeoutfor",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener_onenabled",
+      "context",
+      "minimaapi",
+      "minimaapilistener"
+    ],
+    "2": [
+      "adapter",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_getitemcount",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_setdata",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_ondestroy",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onresume",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheader",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheadersoon",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh",
+      "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_ondestroy",
+      "nonnull",
+      "override",
+      "textview",
+      "viewgroup",
+      "viewholder"
+    ],
+    "3": [
+      "activityresultlauncher",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_java_handler",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "appcompatactivity",
+      "recyclerview",
+      "view"
+    ],
+    "4": [
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_java_jsonobject",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfileerror",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onpaired",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_resetbannerbutton",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showadminbanner"
+    ],
+    "5": [
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_java_uri",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_cleanupimport",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copystream",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_displaynameof",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport"
+    ],
+    "6": [
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_applyinsets",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_navigateup",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
+      "app_src_main_java_com_eurobuddha_filez_util_util_parentof",
+      "bundle"
+    ],
+    "7": [
+      "gradlew",
+      "gradlew__entry",
+      "gradlew_die",
+      "gradlew_save",
+      "gradlew_warn"
+    ],
+    "8": [
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copytoclipboard",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_handlefilecallerror",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast"
+    ],
+    "9": [
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openpandaapps",
+      "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showoldnodebanner"
+    ],
+    "10": [
+      "app_src_main_java_com_eurobuddha_filez_filezdesign",
+      "app_src_main_java_com_eurobuddha_filez_filezdesign_filezdesign"
+    ],
+    "11": [
+      "app_build"
+    ],
+    "12": [
+      "build"
+    ],
+    "13": [
+      "settings"
+    ]
+  },
+  "cohesion": {
+    "0": 0.16,
+    "1": 0.16307692307692306,
+    "2": 0.15441176470588236,
+    "3": 0.5238095238095238,
+    "4": 0.4,
+    "5": 0.6,
+    "6": 0.4,
+    "7": 0.6,
+    "8": 0.6666666666666666,
+    "9": 0.6666666666666666,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0
+  },
+  "gods": [
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "label": "MainActivity",
+      "degree": 49
+    },
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "label": "NodeApi",
+      "degree": 16
+    },
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
+      "label": "Cb",
+      "degree": 15
+    },
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
+      "label": "FileEntry",
+      "degree": 9
+    },
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
+      "label": "FileAdapter",
+      "degree": 9
+    },
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_util_util",
+      "label": "Util",
+      "degree": 7
+    },
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
+      "label": "VH",
+      "degree": 6
+    },
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb",
+      "label": "TextCb",
+      "degree": 3
+    },
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener",
+      "label": "PairingListener",
+      "degree": 3
+    },
+    {
+      "id": "app_src_main_java_com_eurobuddha_filez_filezdesign_filezdesign",
+      "label": "FilezDesign",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "FileAdapter",
+      "target": "FileEntry",
+      "source_files": [
+        "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+        "app/src/main/java/com/eurobuddha/filez/FileEntry.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "MainActivity",
+      "target": "NodeApi",
+      "source_files": [
+        "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+        "app/src/main/java/com/eurobuddha/filez/NodeApi.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
