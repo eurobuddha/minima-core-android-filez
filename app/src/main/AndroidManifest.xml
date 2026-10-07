@@ -5,7 +5,7 @@
     <!-- Node-only: no INTERNET permission. All data comes from the local Minima Core node over the
          broadcast-Intent IPC. Package visibility lets us launch the node app + deliver targeted broadcasts. -->
     <queries>
-        <package android:name="org.minimarex.minimacore" />
+        <package android:name="com.eurobuddha.minimacore" />
         <!-- So the "node too old" banner can deep-link into the store -->
         <package android:name="com.eurobuddha.pandaapps" />
     </queries>

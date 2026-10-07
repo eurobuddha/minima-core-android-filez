@@ -58,7 +58,7 @@ import java.util.concurrent.Executors;
  */
 public class MainActivity extends AppCompatActivity {
 
-    public static final String NODE_PKG = "org.minimarex.minimacore";
+    public static final String NODE_PKG = "com.eurobuddha.minimacore";
     public static final String PANDAAPPS_PKG = "com.eurobuddha.pandaapps";
     private static final String FILEPROVIDER_AUTHORITY = "com.eurobuddha.filez.fileprovider";
     private static final String IMPORT_DIR = "imports";
@@ -476,7 +476,7 @@ public class MainActivity extends AppCompatActivity {
                 copyStream(getContentResolver().openInputStream(src), new FileOutputStream(staged));
 
                 grantUri = FileProvider.getUriForFile(this, FILEPROVIDER_AUTHORITY, staged);
-                grantUriPermission(NODE_PKG, grantUri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                // The SDK grants this URI to its selected core via the FILE intent ClipData.
 
                 final File fstaged = staged;
                 final Uri fgrant = grantUri;
@@ -697,6 +697,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void openMinimaCore() {
         Intent launch = getPackageManager().getLaunchIntentForPackage(NODE_PKG);
+        if (launch == null) launch = getPackageManager().getLaunchIntentForPackage("com.eurobuddha.minimablock");
+        if (launch == null) launch = getPackageManager().getLaunchIntentForPackage("com.eurobuddha.pandamonium");
         if (launch != null) startActivity(launch);
         else Toast.makeText(this, "Minima Core isn't installed.", Toast.LENGTH_LONG).show();
     }
