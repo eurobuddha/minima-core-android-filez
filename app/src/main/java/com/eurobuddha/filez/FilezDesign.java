@@ -10,6 +10,6 @@ public class FilezDesign {
     public static final int TEXT    = Color.parseColor("#FFFFFF");
     public static final int DIM     = Color.parseColor("#9A9AA8");
     public static final int DIM_2   = Color.parseColor("#6A6A78");
-    public static final int ERROR   = Color.parseColor("#E74C3C");
+    public static final int ERROR   = Color.parseColor("#FF5B5B");
     public static final int SUCCESS = Color.parseColor("#2ECC71");
 }

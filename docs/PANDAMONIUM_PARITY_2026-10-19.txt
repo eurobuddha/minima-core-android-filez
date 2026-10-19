@@ -1,0 +1,15 @@
+Pandamonium display repair propagation — filez 0.1.13 (113)
+
+Filez dialog surfaces and error text now match the existing dark browser palette.
+Reused from minima-core-android feature/bear-languages-2026-10-16:
+scripts/adapt-pandamonium-filez-languages.py, theme block and FilezDesign.ERROR. Only integrated resource prefixes removed.
+
+Review: inspected changed code/resources, existing themes and callers. No new
+blocking findings in this display change. Node operations and stored data unchanged.
+Validation: testDebugUnitTest, assembleRelease, lintRelease succeeded offline.
+No JVM tests exist; testDebugUnitTest reported NO-SOURCE.
+Lint: 0 errors, 53 warnings. No physical device check; Fold disconnected.
+Actual APK package/version and Minima family signing certificate verified.
+Signed local candidate: dist/filez-0.1.13-candidate.apk
+SHA256: e3728ecb7b5ab3385bca411b5dfd9a97145e757cae5b57c845ed68d1764f3fc9
+No installation or publication. Full app parity/review remains in progress.

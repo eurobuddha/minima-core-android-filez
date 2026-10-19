@@ -1,5 +1,14 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Base.Theme.Utxo" parent="Theme.Material3.DayNight.NoActionBar">
+<resources>
+    <style name="Base.Theme.Utxo" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#F7931A</item>
+        <item name="colorAccent">#F7931A</item>
+        <item name="colorSurface">#15151F</item>
+        <item name="colorSurfaceContainerHigh">#15151F</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="colorOnSurfaceVariant">#9A9AA8</item>
+        <item name="android:colorBackground">#0A0A0F</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#9A9AA8</item>
     </style>
 
     <style name="Theme.Utxo" parent="Base.Theme.Utxo" />
