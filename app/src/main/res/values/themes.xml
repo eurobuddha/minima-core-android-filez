@@ -1,7 +1,6 @@
 <resources>
     <style name="Base.Theme.Utxo" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">#F7931A</item>
-        <item name="colorAccent">#F7931A</item>
         <item name="colorSurface">#15151F</item>
         <item name="colorSurfaceContainerHigh">#15151F</item>
         <item name="colorOnSurface">#FFFFFF</item>

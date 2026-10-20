@@ -596,7 +596,7 @@ public class MainActivity extends AppCompatActivity {
         input.setInputType(InputType.TYPE_CLASS_TEXT);
         input.setText(prefill);
         input.setSelection(prefill.length());
-        // Native dialog surfaces follow Android light/dark; inherit their matching input colour.
+        // Theme is forced dark; dialog input inherits textColorPrimary.
         LinearLayout wrap = new LinearLayout(this);
         wrap.setPadding(dp(20), dp(8), dp(20), 0);
         wrap.addView(input, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));

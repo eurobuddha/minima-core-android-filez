@@ -4,104 +4,159 @@
   "graph": {},
   "nodes": [
     {
+      "label": "install.sh",
+      "file_type": "code",
+      "source_file": "apks/filez/.githooks/install.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "githooks_install",
+      "community": 15,
+      "community_name": "install.sh",
+      "norm_label": "install.sh"
+    },
+    {
+      "label": "install.sh script",
+      "file_type": "code",
+      "source_file": "apks/filez/.githooks/install.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "githooks_install_sh__entry",
+      "community": 15,
+      "community_name": "install.sh",
+      "norm_label": "install.sh script"
+    },
+    {
+      "label": "pre-commit",
+      "file_type": "code",
+      "source_file": "apks/filez/.githooks/pre-commit",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "githooks_pre_commit",
+      "community": 16,
+      "community_name": "pre-commit",
+      "norm_label": "pre-commit"
+    },
+    {
+      "label": "pre-commit script",
+      "file_type": "code",
+      "source_file": "apks/filez/.githooks/pre-commit",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "githooks_pre_commit__entry",
+      "community": 16,
+      "community_name": "pre-commit",
+      "norm_label": "pre-commit script"
+    },
+    {
       "label": "app/build.gradle",
       "file_type": "code",
-      "source_file": "app/build.gradle",
+      "source_file": "apks/filez/app/build.gradle",
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_build",
       "community": 11,
+      "community_name": "app/build.gradle",
       "norm_label": "app/build.gradle"
     },
     {
       "label": "FileEntry.java",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/FileEntry.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/FileEntry.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_fileentry",
-      "community": 0,
+      "community": 3,
+      "community_name": "org.json.JSONObject",
       "norm_label": "fileentry.java"
     },
     {
       "label": "FileEntry",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/FileEntry.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/FileEntry.java",
       "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": "fileentry"
     },
     {
       "label": ".FileEntry()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/FileEntry.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/FileEntry.java",
       "source_location": "L12",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry_fileentry",
-      "community": 0,
+      "community": 3,
+      "community_name": "org.json.JSONObject",
       "norm_label": ".fileentry()"
-    },
-    {
-      "label": "JSONObject",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "app_src_main_java_com_eurobuddha_filez_fileentry_java_jsonobject",
-      "community": 0,
-      "norm_label": "jsonobject"
     },
     {
       "label": "FilezDesign.java",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/FilezDesign.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/FilezDesign.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_filezdesign",
       "community": 10,
+      "community_name": "FilezDesign.java",
       "norm_label": "filezdesign.java"
     },
     {
       "label": "FilezDesign",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/FilezDesign.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/FilezDesign.java",
       "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_filezdesign_filezdesign",
       "community": 10,
+      "community_name": "FilezDesign.java",
       "norm_label": "filezdesign"
     },
     {
       "label": "MainActivity.java",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "community": 3,
+      "community": 2,
+      "community_name": "MainActivity.java",
       "norm_label": "mainactivity.java"
     },
     {
       "label": "MainActivity",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L59",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "community": 3,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": "mainactivity"
-    },
-    {
-      "label": "AppCompatActivity",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "appcompatactivity",
-      "community": 3,
-      "norm_label": "appcompatactivity"
     },
     {
       "label": "LinearLayout",
@@ -110,18 +165,9 @@
       "source_location": "",
       "_origin": "ast",
       "id": "linearlayout",
-      "community": 0,
+      "community": 6,
+      "community_name": ".onCreate",
       "norm_label": "linearlayout"
-    },
-    {
-      "label": "View",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "view",
-      "community": 3,
-      "norm_label": "view"
     },
     {
       "label": "TextView",
@@ -131,57 +177,20 @@
       "_origin": "ast",
       "id": "textview",
       "community": 2,
+      "community_name": "MainActivity.java",
       "norm_label": "textview"
-    },
-    {
-      "label": "RecyclerView",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "recyclerview",
-      "community": 3,
-      "norm_label": "recyclerview"
-    },
-    {
-      "label": "Handler",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_handler",
-      "community": 3,
-      "norm_label": "handler"
-    },
-    {
-      "label": "ActivityResultLauncher",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "activityresultlauncher",
-      "community": 3,
-      "norm_label": "activityresultlauncher"
     },
     {
       "label": ".onCreate()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L90",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
       "community": 6,
+      "community_name": ".onCreate",
       "norm_label": ".oncreate()"
-    },
-    {
-      "label": "Bundle",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "bundle",
-      "community": 6,
-      "norm_label": "bundle"
     },
     {
       "label": "Override",
@@ -190,347 +199,394 @@
       "source_location": "",
       "_origin": "ast",
       "id": "override",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": "override"
     },
     {
       "label": ".applyInsets()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L140",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_applyinsets",
       "community": 6,
+      "community_name": ".onCreate",
       "norm_label": ".applyinsets()"
     },
     {
       "label": ".onPaired()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L155",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onpaired",
-      "community": 4,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".onpaired()"
     },
     {
       "label": ".showAdminBanner()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L167",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showadminbanner",
-      "community": 4,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".showadminbanner()"
     },
     {
       "label": ".showOldNodeBanner()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L175",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showoldnodebanner",
-      "community": 9,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".showoldnodebanner()"
     },
     {
       "label": ".resetBannerButton()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L184",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_resetbannerbutton",
-      "community": 4,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".resetbannerbutton()"
     },
     {
       "label": ".onFileTimeout()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L194",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfiletimeout",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".onfiletimeout()"
     },
     {
       "label": ".handleFileCallError()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L209",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_handlefilecallerror",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".handlefilecallerror()"
     },
     {
       "label": ".fetchNodeRoot()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L218",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_fetchnoderoot",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".fetchnoderoot()"
     },
     {
       "label": ".terminalPathFor()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L230",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_terminalpathfor",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".terminalpathfor()"
     },
     {
       "label": ".copyToClipboard()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L235",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copytoclipboard",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".copytoclipboard()"
     },
     {
       "label": ".loadDirectory()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L253",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".loaddirectory()"
     },
     {
       "label": ".updateHeader()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L289",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheader",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": ".updateheader()"
     },
     {
       "label": ".navigateUp()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L297",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_navigateup",
       "community": 6,
+      "community_name": ".onCreate",
       "norm_label": ".navigateup()"
     },
     {
       "label": ".onFileError()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L303",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfileerror",
-      "community": 4,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".onfileerror()"
-    },
-    {
-      "label": "JSONObject",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_jsonobject",
-      "community": 4,
-      "norm_label": "jsonobject"
     },
     {
       "label": ".showMainMenu()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L312",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showmainmenu",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".showmainmenu()"
     },
     {
       "label": ".showEntryMenu()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L330",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".showentrymenu()"
     },
     {
       "label": ".showDetail()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L351",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".showdetail()"
     },
     {
       "label": ".detailSection()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L413",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection",
-      "community": 0,
+      "community": 2,
+      "community_name": "MainActivity.java",
       "norm_label": ".detailsection()"
     },
     {
       "label": ".startExport()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L429",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_startexport",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".startexport()"
     },
     {
       "label": ".doExport()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L434",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doexport",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".doexport()"
-    },
-    {
-      "label": "Uri",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_uri",
-      "community": 5,
-      "norm_label": "uri"
     },
     {
       "label": ".doImport()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L463",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport",
       "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".doimport()"
     },
     {
       "label": ".cleanupImport()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L505",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_cleanupimport",
       "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".cleanupimport()"
     },
     {
       "label": ".displayNameOf()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L510",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_displaynameof",
       "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".displaynameof()"
     },
     {
       "label": ".promptNewFolder()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L526",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptnewfolder",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".promptnewfolder()"
     },
     {
       "label": ".promptRename()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L534",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptrename",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".promptrename()"
     },
     {
       "label": ".confirmDelete()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L543",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".confirmdelete()"
     },
     {
       "label": ".createBackup()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L557",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_createbackup",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".createbackup()"
     },
     {
       "label": ".simpleRefreshCb()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L583",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".simplerefreshcb()"
     },
     {
       "label": ".promptText()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L594",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext",
-      "community": 0,
+      "community": 6,
+      "community_name": ".onCreate",
       "norm_label": ".prompttext()"
     },
     {
       "label": "TextCb",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L611",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb",
-      "community": 0,
+      "community": 6,
+      "community_name": ".onCreate",
       "norm_label": "textcb"
     },
     {
       "label": ".text()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L611",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb_text",
-      "community": 0,
+      "community": 6,
+      "community_name": ".onCreate",
       "norm_label": ".text()"
     },
     {
       "label": "FileAdapter",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L615",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": "fileadapter"
     },
     {
@@ -540,27 +596,33 @@
       "source_location": "",
       "_origin": "ast",
       "id": "adapter",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": "adapter"
     },
     {
       "label": ".setData()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L617",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_setdata",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": ".setdata()"
     },
     {
       "label": "VH",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L619",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
       "community": 2,
+      "community_name": "MainActivity.java",
       "norm_label": "vh"
     },
     {
@@ -571,236 +633,249 @@
       "_origin": "ast",
       "id": "viewholder",
       "community": 2,
+      "community_name": "MainActivity.java",
       "norm_label": "viewholder"
     },
     {
       "label": ".VH()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L621",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh",
       "community": 2,
+      "community_name": "MainActivity.java",
       "norm_label": ".vh()"
     },
     {
       "label": ".onCreateViewHolder()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L626",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
       "community": 2,
+      "community_name": "MainActivity.java",
       "norm_label": ".oncreateviewholder()"
-    },
-    {
-      "label": "ViewGroup",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "viewgroup",
-      "community": 2,
-      "norm_label": "viewgroup"
-    },
-    {
-      "label": "NonNull",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "nonnull",
-      "community": 2,
-      "norm_label": "nonnull"
     },
     {
       "label": ".onBindViewHolder()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L663",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_onbindviewholder",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".onbindviewholder()"
     },
     {
       "label": ".getItemCount()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L676",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_getitemcount",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": ".getitemcount()"
     },
     {
       "label": ".copyStream()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L681",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copystream",
       "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".copystream()"
     },
     {
       "label": ".updateHeaderSoon()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L696",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheadersoon",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": ".updateheadersoon()"
     },
     {
       "label": ".openMinimaCore()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L698",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore",
-      "community": 9,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".openminimacore()"
     },
     {
       "label": ".openPandaApps()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L704",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openpandaapps",
-      "community": 9,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".openpandaapps()"
     },
     {
       "label": ".toast()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L710",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast",
-      "community": 8,
+      "community": 5,
+      "community_name": "MainActivity",
       "norm_label": ".toast()"
     },
     {
       "label": ".dp()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L712",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp",
-      "community": 0,
+      "community": 6,
+      "community_name": ".onCreate",
       "norm_label": ".dp()"
     },
     {
       "label": ".onResume()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L714",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onresume",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": ".onresume()"
     },
     {
       "label": ".onDestroy()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L717",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_ondestroy",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": ".ondestroy()"
     },
     {
       "label": "NodeApi.java",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": "nodeapi.java"
     },
     {
       "label": "NodeApi",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L26",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": "nodeapi"
     },
     {
       "label": "Cb",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L28",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": "cb"
     },
     {
       "label": ".onResult()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L29",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb_onresult",
-      "community": 1,
+      "community": 3,
+      "community_name": "org.json.JSONObject",
       "norm_label": ".onresult()"
-    },
-    {
-      "label": "JSONObject",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_java_jsonobject",
-      "community": 1,
-      "norm_label": "jsonobject"
     },
     {
       "label": ".onError()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L30",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb_onerror",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".onerror()"
     },
     {
       "label": "PairingListener",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L33",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": "pairinglistener"
     },
     {
       "label": ".onEnabled()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L34",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener_onenabled",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".onenabled()"
     },
     {
       "label": ".timeoutFor()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L48",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_timeoutfor",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".timeoutfor()"
     },
     {
@@ -811,96 +886,79 @@
       "_origin": "ast",
       "id": "minimaapi",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": "minimaapi"
-    },
-    {
-      "label": "Handler",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_java_handler",
-      "community": 1,
-      "norm_label": "handler"
-    },
-    {
-      "label": "Context",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "context",
-      "community": 1,
-      "norm_label": "context"
     },
     {
       "label": ".NodeApi()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L65",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_nodeapi",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".nodeapi()"
     },
     {
       "label": ".dead()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L83",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_dead",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".dead()"
     },
     {
       "label": ".cmd()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L88",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_cmd",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".cmd()"
     },
     {
       "label": ".file()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L108",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_file",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".file()"
-    },
-    {
-      "label": "Uri",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_java_uri",
-      "community": 1,
-      "norm_label": "uri"
     },
     {
       "label": ".armTimeout()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L119",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".armtimeout()"
     },
     {
       "label": ".listenerFor()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L133",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": ".listenerfor()"
     },
     {
@@ -911,112 +969,132 @@
       "_origin": "ast",
       "id": "minimaapilistener",
       "community": 1,
+      "community_name": "NodeApi",
       "norm_label": "minimaapilistener"
     },
     {
       "label": ".onDestroy()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L157",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_ondestroy",
-      "community": 2,
+      "community": 8,
+      "community_name": "FileAdapter",
       "norm_label": ".ondestroy()"
     },
     {
       "label": "Util.java",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/Util.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/Util.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_util",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": "util.java"
     },
     {
       "label": "Util",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/Util.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/Util.java",
       "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_util_util",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": "util"
     },
     {
       "label": ".formatBytes()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/Util.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/Util.java",
       "source_location": "L9",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_util_util_formatbytes",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".formatbytes()"
     },
     {
       "label": ".formatDate()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/Util.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/Util.java",
       "source_location": "L18",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_util_util_formatdate",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".formatdate()"
     },
     {
       "label": ".getExtension()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/Util.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/Util.java",
       "source_location": "L24",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_util_util_getextension",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".getextension()"
     },
     {
       "label": ".safeName()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/Util.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/Util.java",
       "source_location": "L32",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_util_util_safename",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".safename()"
     },
     {
       "label": ".joinPath()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/Util.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/Util.java",
       "source_location": "L37",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_util_util_joinpath",
       "community": 0,
+      "community_name": ".showDetail",
       "norm_label": ".joinpath()"
     },
     {
       "label": ".parentOf()",
       "file_type": "code",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/Util.java",
+      "source_file": "apks/filez/app/src/main/java/com/eurobuddha/filez/Util.java",
       "source_location": "L42",
+      "_callable": true,
       "_origin": "ast",
       "id": "app_src_main_java_com_eurobuddha_filez_util_util_parentof",
       "community": 6,
+      "community_name": ".onCreate",
       "norm_label": ".parentof()"
     },
     {
-      "label": "build.gradle",
+      "label": "filez/build.gradle",
       "file_type": "code",
-      "source_file": "build.gradle",
+      "source_file": "apks/filez/build.gradle",
       "source_location": "L1",
       "_origin": "ast",
       "id": "build",
       "community": 12,
-      "norm_label": "build.gradle"
+      "community_name": "build.gradle",
+      "norm_label": "filez/build.gradle"
     },
     {
       "label": "gradlew",
       "file_type": "code",
-      "source_file": "gradlew",
+      "source_file": "apks/filez/gradlew",
       "source_location": "L1",
       "metadata": {
         "language": "bash",
@@ -1025,12 +1103,13 @@
       "_origin": "ast",
       "id": "gradlew",
       "community": 7,
+      "community_name": "gradlew",
       "norm_label": "gradlew"
     },
     {
       "label": "gradlew script",
       "file_type": "code",
-      "source_file": "gradlew",
+      "source_file": "apks/filez/gradlew",
       "source_location": "L1",
       "metadata": {
         "language": "bash",
@@ -1039,12 +1118,13 @@
       "_origin": "ast",
       "id": "gradlew__entry",
       "community": 7,
+      "community_name": "gradlew",
       "norm_label": "gradlew script"
     },
     {
       "label": "warn()",
       "file_type": "code",
-      "source_file": "gradlew",
+      "source_file": "apks/filez/gradlew",
       "source_location": "L52",
       "metadata": {
         "language": "bash",
@@ -1053,12 +1133,13 @@
       "_origin": "ast",
       "id": "gradlew_warn",
       "community": 7,
+      "community_name": "gradlew",
       "norm_label": "warn()"
     },
     {
       "label": "die()",
       "file_type": "code",
-      "source_file": "gradlew",
+      "source_file": "apks/filez/gradlew",
       "source_location": "L56",
       "metadata": {
         "language": "bash",
@@ -1067,12 +1148,13 @@
       "_origin": "ast",
       "id": "gradlew_die",
       "community": 7,
+      "community_name": "gradlew",
       "norm_label": "die()"
     },
     {
       "label": "save()",
       "file_type": "code",
-      "source_file": "gradlew",
+      "source_file": "apks/filez/gradlew",
       "source_location": "L176",
       "metadata": {
         "language": "bash",
@@ -1081,20 +1163,242 @@
       "_origin": "ast",
       "id": "gradlew_save",
       "community": 7,
+      "community_name": "gradlew",
       "norm_label": "save()"
     },
     {
       "label": "settings.gradle",
       "file_type": "code",
-      "source_file": "settings.gradle",
+      "source_file": "apks/filez/settings.gradle",
       "source_location": "L1",
       "_origin": "ast",
       "id": "settings",
       "community": 13,
+      "community_name": "settings.gradle",
       "norm_label": "settings.gradle"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "apks/filez/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 14,
+      "community_name": "filez \u2014 working rules",
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "filez \u2014 working rules",
+      "file_type": "document",
+      "source_file": "apks/filez/CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_filez_working_rules",
+      "community": 14,
+      "community_name": "filez \u2014 working rules",
+      "norm_label": "filez \u2014 working rules"
+    },
+    {
+      "label": "Versioning guardrail \u2014 every code change ships with a version bump",
+      "file_type": "document",
+      "source_file": "apks/filez/CLAUDE.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "claude_versioning_guardrail_every_code_change_ships_with_a_version_bump",
+      "community": 14,
+      "community_name": "filez \u2014 working rules",
+      "norm_label": "versioning guardrail \u2014 every code change ships with a version bump"
+    },
+    {
+      "label": "org.json.JSONObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "org_json_jsonobject",
+      "community": 3,
+      "community_name": "org.json.JSONObject",
+      "norm_label": "org.json.jsonobject"
+    },
+    {
+      "label": "android.content.Context",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "android_content_context",
+      "community": 1,
+      "community_name": "NodeApi",
+      "norm_label": "android.content.context"
+    },
+    {
+      "label": "android.net.Uri",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "android_net_uri",
+      "community": 5,
+      "community_name": "MainActivity",
+      "norm_label": "android.net.uri"
+    },
+    {
+      "label": "android.os.Bundle",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "android_os_bundle",
+      "community": 6,
+      "community_name": ".onCreate",
+      "norm_label": "android.os.bundle"
+    },
+    {
+      "label": "android.os.Handler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "android_os_handler",
+      "community": 1,
+      "community_name": "NodeApi",
+      "norm_label": "android.os.handler"
+    },
+    {
+      "label": "android.view.View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "android_view_view",
+      "community": 2,
+      "community_name": "MainActivity.java",
+      "norm_label": "android.view.view"
+    },
+    {
+      "label": "android.view.ViewGroup",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "android_view_viewgroup",
+      "community": 2,
+      "community_name": "MainActivity.java",
+      "norm_label": "android.view.viewgroup"
+    },
+    {
+      "label": "android.widget.LinearLayout",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "android_widget_linearlayout",
+      "community": 2,
+      "community_name": "MainActivity.java",
+      "norm_label": "android.widget.linearlayout"
+    },
+    {
+      "label": "android.widget.TextView",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "android_widget_textview",
+      "community": 2,
+      "community_name": "MainActivity.java",
+      "norm_label": "android.widget.textview"
+    },
+    {
+      "label": "androidx.activity.result.ActivityResultLauncher",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "androidx_activity_result_activityresultlauncher",
+      "community": 2,
+      "community_name": "MainActivity.java",
+      "norm_label": "androidx.activity.result.activityresultlauncher"
+    },
+    {
+      "label": "androidx.annotation.NonNull",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "androidx_annotation_nonnull",
+      "community": 2,
+      "community_name": "MainActivity.java",
+      "norm_label": "androidx.annotation.nonnull"
+    },
+    {
+      "label": "androidx.appcompat.app.AppCompatActivity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "androidx_appcompat_app_appcompatactivity",
+      "community": 2,
+      "community_name": "MainActivity.java",
+      "norm_label": "androidx.appcompat.app.appcompatactivity"
+    },
+    {
+      "label": "androidx.recyclerview.widget.RecyclerView",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "androidx_recyclerview_widget_recyclerview",
+      "community": 2,
+      "community_name": "MainActivity.java",
+      "norm_label": "androidx.recyclerview.widget.recyclerview"
+    },
+    {
+      "label": "org.minimarex.minimaapi.MinimaAPI",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "org_minimarex_minimaapi_minimaapi",
+      "community": 1,
+      "community_name": "NodeApi",
+      "norm_label": "org.minimarex.minimaapi.minimaapi"
+    },
+    {
+      "label": "org.minimarex.minimaapi.MinimaAPIListener",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "org_minimarex_minimaapi_minimaapilistener",
+      "community": 1,
+      "community_name": "NodeApi",
+      "norm_label": "org.minimarex.minimaapi.minimaapilistener"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".githooks/install.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "githooks_install",
+      "target": "githooks_install_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".githooks/pre-commit",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "githooks_pre_commit",
+      "target": "githooks_pre_commit__entry"
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1102,9 +1406,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_fileentry",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry"
     },
     {
       "relation": "imports",
@@ -1114,9 +1418,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_fileentry",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_java_jsonobject",
-      "confidence_score": 1.0
+      "target": "org_json_jsonobject"
     },
     {
       "relation": "method",
@@ -1125,9 +1429,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry_fileentry",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry_fileentry"
     },
     {
       "relation": "references",
@@ -1137,9 +1441,9 @@
       "weight": 1.0,
       "context": "generic_arg",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry"
     },
     {
       "relation": "references",
@@ -1149,9 +1453,9 @@
       "weight": 1.0,
       "context": "generic_arg",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_setdata",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry"
     },
     {
       "relation": "references",
@@ -1161,9 +1465,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry"
     },
     {
       "relation": "references",
@@ -1173,9 +1477,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptrename",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry"
     },
     {
       "relation": "references",
@@ -1185,9 +1489,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry"
     },
     {
       "relation": "references",
@@ -1197,9 +1501,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry"
     },
     {
       "relation": "references",
@@ -1209,9 +1513,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_startexport",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry"
     },
     {
       "relation": "references",
@@ -1221,9 +1525,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_fileentry_fileentry_fileentry",
-      "target": "app_src_main_java_com_eurobuddha_filez_fileentry_java_jsonobject",
-      "confidence_score": 1.0
+      "target": "org_json_jsonobject"
     },
     {
       "relation": "contains",
@@ -1232,92 +1536,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_filezdesign",
-      "target": "app_src_main_java_com_eurobuddha_filez_filezdesign_filezdesign",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L23",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "activityresultlauncher",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_handler",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L38",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_jsonobject",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_uri",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L59",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L27",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "appcompatactivity",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "bundle",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_filezdesign_filezdesign"
     },
     {
       "relation": "imports",
@@ -1327,57 +1548,45 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "context",
-      "confidence_score": 1.0
+      "target": "android_content_context"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L18",
+      "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "linearlayout",
-      "confidence_score": 1.0
+      "target": "android_net_uri"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L25",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "nonnull",
-      "confidence_score": 1.0
+      "target": "android_os_bundle"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L35",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "recyclerview",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L19",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "textview",
-      "confidence_score": 1.0
+      "target": "android_os_handler"
     },
     {
       "relation": "imports",
@@ -1387,9 +1596,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "view",
-      "confidence_score": 1.0
+      "target": "android_view_view"
     },
     {
       "relation": "imports",
@@ -1399,33 +1608,104 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
-      "target": "viewgroup",
-      "confidence_score": 1.0
+      "target": "android_view_viewgroup"
     },
     {
-      "relation": "references",
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L80",
+      "source_location": "L18",
       "weight": 1.0,
-      "context": "field",
       "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "activityresultlauncher",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
+      "target": "android_widget_linearlayout"
     },
     {
-      "relation": "references",
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L74",
+      "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
-      "context": "field",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
+      "target": "android_widget_textview"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
+      "target": "androidx_activity_result_activityresultlauncher"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
+      "target": "androidx_annotation_nonnull"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
+      "target": "androidx_appcompat_app_appcompatactivity"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
+      "target": "androidx_recyclerview_widget_recyclerview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity",
+      "target": "org_json_jsonobject"
     },
     {
       "relation": "references",
@@ -1435,497 +1715,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_handler",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L140",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_applyinsets",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L505",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_cleanupimport",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L543",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L681",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copystream",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L235",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copytoclipboard",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L557",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_createbackup",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L413",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L510",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_displaynameof",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L434",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doexport",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L463",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L712",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L218",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_fetchnoderoot",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L209",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_handlefilecallerror",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L253",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L297",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_navigateup",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L90",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L717",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_ondestroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L303",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfileerror",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L194",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfiletimeout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L155",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onpaired",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L714",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onresume",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L698",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L704",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openpandaapps",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L526",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptnewfolder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L534",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptrename",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L594",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L184",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_resetbannerbutton",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L167",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showadminbanner",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L351",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L330",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L312",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showmainmenu",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L175",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showoldnodebanner",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L583",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L429",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_startexport",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L230",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_terminalpathfor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L710",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L289",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheader",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L696",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheadersoon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L611",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L67",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "inherits",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L59",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "appcompatactivity",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L69",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "linearlayout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L73",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "recyclerview",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L72",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "textview",
-      "confidence_score": 1.0
+      "target": "android_os_handler"
     },
     {
       "relation": "references",
@@ -1935,9 +1727,521 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
-      "target": "view",
-      "confidence_score": 1.0
+      "target": "android_view_view"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "android_widget_linearlayout"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "android_widget_textview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L80",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "androidx_activity_result_activityresultlauncher"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "androidx_appcompat_app_appcompatactivity"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "androidx_recyclerview_widget_recyclerview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "field",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L140",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_applyinsets"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L505",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_cleanupimport"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L543",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L681",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copystream"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L235",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copytoclipboard"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L557",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_createbackup"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L413",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L510",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_displaynameof"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L434",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doexport"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L463",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L712",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L218",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_fetchnoderoot"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L209",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_handlefilecallerror"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L253",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L297",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_navigateup"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L717",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_ondestroy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L303",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfileerror"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L194",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfiletimeout"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L155",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onpaired"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L714",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onresume"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L698",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L704",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openpandaapps"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L526",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptnewfolder"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L534",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptrename"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L594",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L184",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_resetbannerbutton"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L167",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showadminbanner"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L351",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L330",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L312",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showmainmenu"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L175",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showoldnodebanner"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L583",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L429",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_startexport"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L230",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_terminalpathfor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L710",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L289",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheader"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L696",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheadersoon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L611",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L67",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi"
     },
     {
       "relation": "calls",
@@ -1947,21 +2251,9 @@
       "source_location": "L628",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
-      "target": "linearlayout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L413",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection",
-      "target": "linearlayout",
-      "confidence_score": 1.0
+      "target": "linearlayout"
     },
     {
       "relation": "calls",
@@ -1971,9 +2263,9 @@
       "source_location": "L600",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext",
-      "target": "linearlayout",
-      "confidence_score": 1.0
+      "target": "linearlayout"
     },
     {
       "relation": "calls",
@@ -1983,45 +2275,9 @@
       "source_location": "L354",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "linearlayout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L621",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh",
-      "target": "linearlayout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L330",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
-      "target": "view",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L312",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showmainmenu",
-      "target": "view",
-      "confidence_score": 1.0
+      "target": "linearlayout"
     },
     {
       "relation": "calls",
@@ -2031,9 +2287,9 @@
       "source_location": "L634",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
-      "target": "textview",
-      "confidence_score": 1.0
+      "target": "textview"
     },
     {
       "relation": "calls",
@@ -2043,9 +2299,9 @@
       "source_location": "L414",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection",
-      "target": "textview",
-      "confidence_score": 1.0
+      "target": "textview"
     },
     {
       "relation": "calls",
@@ -2055,33 +2311,21 @@
       "source_location": "L364",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "textview",
-      "confidence_score": 1.0
+      "target": "textview"
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L620",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
-      "target": "textview",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L621",
+      "source_location": "L90",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh",
-      "target": "textview",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
+      "target": "android_os_bundle"
     },
     {
       "relation": "calls",
@@ -2091,9 +2335,9 @@
       "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter"
     },
     {
       "relation": "calls",
@@ -2103,9 +2347,9 @@
       "source_location": "L103",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_applyinsets",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_applyinsets"
     },
     {
       "relation": "calls",
@@ -2115,9 +2359,9 @@
       "source_location": "L117",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doexport",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doexport"
     },
     {
       "relation": "calls",
@@ -2127,9 +2371,9 @@
       "source_location": "L119",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport"
     },
     {
       "relation": "calls",
@@ -2139,9 +2383,9 @@
       "source_location": "L109",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory"
     },
     {
       "relation": "calls",
@@ -2151,9 +2395,9 @@
       "source_location": "L112",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_navigateup",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_navigateup"
     },
     {
       "relation": "calls",
@@ -2163,9 +2407,9 @@
       "source_location": "L111",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore"
     },
     {
       "relation": "calls",
@@ -2175,21 +2419,9 @@
       "source_location": "L128",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L90",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "bundle",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi"
     },
     {
       "relation": "references",
@@ -2199,9 +2431,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_oncreate",
-      "target": "override",
-      "confidence_score": 1.0
+      "target": "override"
     },
     {
       "relation": "references",
@@ -2211,9 +2443,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_getitemcount",
-      "target": "override",
-      "confidence_score": 1.0
+      "target": "override"
     },
     {
       "relation": "references",
@@ -2223,9 +2455,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_onbindviewholder",
-      "target": "override",
-      "confidence_score": 1.0
+      "target": "override"
     },
     {
       "relation": "references",
@@ -2235,9 +2467,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
-      "target": "override",
-      "confidence_score": 1.0
+      "target": "override"
     },
     {
       "relation": "references",
@@ -2247,9 +2479,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_ondestroy",
-      "target": "override",
-      "confidence_score": 1.0
+      "target": "override"
     },
     {
       "relation": "references",
@@ -2259,9 +2491,9 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onresume",
-      "target": "override",
-      "confidence_score": 1.0
+      "target": "override"
     },
     {
       "relation": "calls",
@@ -2271,9 +2503,9 @@
       "source_location": "L146",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_applyinsets",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp"
     },
     {
       "relation": "calls",
@@ -2283,9 +2515,9 @@
       "source_location": "L163",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onpaired",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory"
     },
     {
       "relation": "calls",
@@ -2295,9 +2527,9 @@
       "source_location": "L160",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onpaired",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_resetbannerbutton",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_resetbannerbutton"
     },
     {
       "relation": "calls",
@@ -2307,9 +2539,9 @@
       "source_location": "L305",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfileerror",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showadminbanner",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showadminbanner"
     },
     {
       "relation": "calls",
@@ -2319,9 +2551,9 @@
       "source_location": "L170",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showadminbanner",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_resetbannerbutton",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_resetbannerbutton"
     },
     {
       "relation": "calls",
@@ -2331,9 +2563,9 @@
       "source_location": "L180",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showoldnodebanner",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openpandaapps",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openpandaapps"
     },
     {
       "relation": "calls",
@@ -2343,9 +2575,9 @@
       "source_location": "L187",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_resetbannerbutton",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore"
     },
     {
       "relation": "calls",
@@ -2355,9 +2587,9 @@
       "source_location": "L211",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_handlefilecallerror",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfiletimeout",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfiletimeout"
     },
     {
       "relation": "calls",
@@ -2367,9 +2599,9 @@
       "source_location": "L196",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfiletimeout",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "calls",
@@ -2391,9 +2623,9 @@
       "source_location": "L213",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_handlefilecallerror",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast"
     },
     {
       "relation": "calls",
@@ -2403,9 +2635,9 @@
       "source_location": "L220",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_fetchnoderoot",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "calls",
@@ -2427,9 +2659,9 @@
       "source_location": "L256",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_fetchnoderoot",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_fetchnoderoot"
     },
     {
       "relation": "calls",
@@ -2439,9 +2671,9 @@
       "source_location": "L352",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_terminalpathfor",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_terminalpathfor"
     },
     {
       "relation": "calls",
@@ -2451,9 +2683,9 @@
       "source_location": "L339",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_terminalpathfor",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_terminalpathfor"
     },
     {
       "relation": "calls",
@@ -2463,9 +2695,9 @@
       "source_location": "L248",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copytoclipboard",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast"
     },
     {
       "relation": "calls",
@@ -2475,9 +2707,9 @@
       "source_location": "L398",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copytoclipboard",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copytoclipboard"
     },
     {
       "relation": "calls",
@@ -2487,9 +2719,9 @@
       "source_location": "L339",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copytoclipboard",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copytoclipboard"
     },
     {
       "relation": "calls",
@@ -2499,9 +2731,9 @@
       "source_location": "L670",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_onbindviewholder",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory"
     },
     {
       "relation": "calls",
@@ -2511,9 +2743,9 @@
       "source_location": "L258",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "calls",
@@ -2535,9 +2767,9 @@
       "source_location": "L299",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_navigateup",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory"
     },
     {
       "relation": "calls",
@@ -2547,9 +2779,9 @@
       "source_location": "L715",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onresume",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory"
     },
     {
       "relation": "calls",
@@ -2559,9 +2791,9 @@
       "source_location": "L323",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showmainmenu",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_loaddirectory"
     },
     {
       "relation": "calls",
@@ -2571,9 +2803,9 @@
       "source_location": "L696",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheadersoon",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheader",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_updateheader"
     },
     {
       "relation": "calls",
@@ -2595,9 +2827,21 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_onfileerror",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_jsonobject",
-      "confidence_score": 1.0
+      "target": "org_json_jsonobject"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L312",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showmainmenu",
+      "target": "android_view_view"
     },
     {
       "relation": "calls",
@@ -2607,9 +2851,9 @@
       "source_location": "L322",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showmainmenu",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_createbackup",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_createbackup"
     },
     {
       "relation": "calls",
@@ -2619,9 +2863,9 @@
       "source_location": "L321",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showmainmenu",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptnewfolder",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptnewfolder"
     },
     {
       "relation": "calls",
@@ -2631,9 +2875,21 @@
       "source_location": "L673",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_onbindviewholder",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L330",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
+      "target": "android_view_view"
     },
     {
       "relation": "calls",
@@ -2643,9 +2899,9 @@
       "source_location": "L341",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete"
     },
     {
       "relation": "calls",
@@ -2655,9 +2911,9 @@
       "source_location": "L340",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptrename",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptrename"
     },
     {
       "relation": "calls",
@@ -2667,9 +2923,9 @@
       "source_location": "L338",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showentrymenu",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_startexport",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_startexport"
     },
     {
       "relation": "calls",
@@ -2691,9 +2947,9 @@
       "source_location": "L671",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_onbindviewholder",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail"
     },
     {
       "relation": "calls",
@@ -2703,9 +2959,9 @@
       "source_location": "L409",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete"
     },
     {
       "relation": "calls",
@@ -2715,9 +2971,9 @@
       "source_location": "L358",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection"
     },
     {
       "relation": "calls",
@@ -2727,9 +2983,9 @@
       "source_location": "L356",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp"
     },
     {
       "relation": "calls",
@@ -2739,9 +2995,9 @@
       "source_location": "L407",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_startexport",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_startexport"
     },
     {
       "relation": "calls",
@@ -2751,9 +3007,9 @@
       "source_location": "L370",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_showdetail",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "calls",
@@ -2804,6 +3060,18 @@
       "target": "app_src_main_java_com_eurobuddha_filez_util_util_joinpath"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L413",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection",
+      "target": "android_widget_linearlayout"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -2811,9 +3079,9 @@
       "source_location": "L418",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_detailsection",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp"
     },
     {
       "relation": "calls",
@@ -2835,9 +3103,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doexport",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_uri",
-      "confidence_score": 1.0
+      "target": "android_net_uri"
     },
     {
       "relation": "calls",
@@ -2847,9 +3115,9 @@
       "source_location": "L437",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doexport",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "calls",
@@ -2867,37 +3135,13 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L505",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_cleanupimport",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_uri",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L510",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_displaynameof",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_uri",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
       "source_location": "L463",
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_java_uri",
-      "confidence_score": 1.0
+      "target": "android_net_uri"
     },
     {
       "relation": "calls",
@@ -2907,9 +3151,9 @@
       "source_location": "L499",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_cleanupimport",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_cleanupimport"
     },
     {
       "relation": "calls",
@@ -2919,9 +3163,9 @@
       "source_location": "L476",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copystream",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_copystream"
     },
     {
       "relation": "calls",
@@ -2931,9 +3175,9 @@
       "source_location": "L469",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_displaynameof",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_displaynameof"
     },
     {
       "relation": "calls",
@@ -2943,9 +3187,9 @@
       "source_location": "L500",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_toast"
     },
     {
       "relation": "calls",
@@ -2955,9 +3199,9 @@
       "source_location": "L484",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_doimport",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "calls",
@@ -2996,6 +3240,30 @@
       "target": "app_src_main_java_com_eurobuddha_filez_util_util_safename"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L505",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_cleanupimport",
+      "target": "android_net_uri"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L510",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_displaynameof",
+      "target": "android_net_uri"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -3003,9 +3271,9 @@
       "source_location": "L527",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptnewfolder",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext"
     },
     {
       "relation": "calls",
@@ -3015,9 +3283,9 @@
       "source_location": "L530",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptnewfolder",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb"
     },
     {
       "relation": "calls",
@@ -3063,9 +3331,9 @@
       "source_location": "L535",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptrename",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext"
     },
     {
       "relation": "calls",
@@ -3075,9 +3343,9 @@
       "source_location": "L539",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_promptrename",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb"
     },
     {
       "relation": "calls",
@@ -3123,9 +3391,9 @@
       "source_location": "L551",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_confirmdelete",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb"
     },
     {
       "relation": "calls",
@@ -3159,9 +3427,9 @@
       "source_location": "L559",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_createbackup",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "calls",
@@ -3183,9 +3451,9 @@
       "source_location": "L583",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_simplerefreshcb",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "calls",
@@ -3195,9 +3463,9 @@
       "source_location": "L601",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp"
     },
     {
       "relation": "references",
@@ -3207,9 +3475,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_prompttext",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb"
     },
     {
       "relation": "calls",
@@ -3230,9 +3498,9 @@
       "source_location": "L611",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb_text",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_textcb_text"
     },
     {
       "relation": "inherits",
@@ -3241,9 +3509,9 @@
       "source_location": "L615",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "target": "adapter",
-      "confidence_score": 1.0
+      "target": "adapter"
     },
     {
       "relation": "method",
@@ -3252,9 +3520,9 @@
       "source_location": "L676",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_getitemcount",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_getitemcount"
     },
     {
       "relation": "method",
@@ -3263,9 +3531,9 @@
       "source_location": "L663",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_onbindviewholder",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_onbindviewholder"
     },
     {
       "relation": "method",
@@ -3274,9 +3542,9 @@
       "source_location": "L626",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder"
     },
     {
       "relation": "method",
@@ -3285,9 +3553,9 @@
       "source_location": "L617",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_setdata",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_setdata"
     },
     {
       "relation": "references",
@@ -3297,9 +3565,9 @@
       "weight": 1.0,
       "_origin": "ast",
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh"
     },
     {
       "relation": "references",
@@ -3309,9 +3577,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_onbindviewholder",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh"
     },
     {
       "relation": "references",
@@ -3321,9 +3589,21 @@
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L620",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
+      "target": "android_widget_textview"
     },
     {
       "relation": "method",
@@ -3332,9 +3612,9 @@
       "source_location": "L621",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh"
     },
     {
       "relation": "inherits",
@@ -3343,9 +3623,9 @@
       "source_location": "L619",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh",
-      "target": "viewholder",
-      "confidence_score": 1.0
+      "target": "viewholder"
     },
     {
       "relation": "calls",
@@ -3355,33 +3635,33 @@
       "source_location": "L660",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L631",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh"
     },
     {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
-      "source_location": "L626",
+      "source_location": "L621",
       "weight": 1.0,
-      "context": "attribute",
+      "context": "parameter_type",
       "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
-      "target": "nonnull",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh",
+      "target": "android_widget_linearlayout"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L621",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_vh_vh",
+      "target": "android_widget_textview"
     },
     {
       "relation": "references",
@@ -3391,9 +3671,33 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
-      "target": "viewgroup",
-      "confidence_score": 1.0
+      "target": "android_view_viewgroup"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L626",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
+      "target": "androidx_annotation_nonnull"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/MainActivity.java",
+      "source_location": "L631",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_fileadapter_oncreateviewholder",
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_dp"
     },
     {
       "relation": "calls",
@@ -3451,9 +3755,9 @@
       "source_location": "L707",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openpandaapps",
-      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_mainactivity_mainactivity_openminimacore"
     },
     {
       "relation": "calls",
@@ -3472,24 +3776,12 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L6",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_java_handler",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_java_jsonobject",
-      "confidence_score": 1.0
+      "target": "android_content_context"
     },
     {
       "relation": "imports",
@@ -3499,9 +3791,21 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_java_uri",
-      "confidence_score": 1.0
+      "target": "android_net_uri"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi",
+      "target": "android_os_handler"
     },
     {
       "relation": "contains",
@@ -3510,21 +3814,21 @@
       "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L4",
+      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi",
-      "target": "context",
-      "confidence_score": 1.0
+      "target": "org_json_jsonobject"
     },
     {
       "relation": "imports",
@@ -3534,9 +3838,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi",
-      "target": "minimaapi",
-      "confidence_score": 1.0
+      "target": "org_minimarex_minimaapi_minimaapi"
     },
     {
       "relation": "imports",
@@ -3546,132 +3850,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi",
-      "target": "minimaapilistener",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L28",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L58",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_java_handler",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L119",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L93",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_cmd",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L83",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_dead",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L108",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_file",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L133",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L65",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_nodeapi",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L157",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_ondestroy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L48",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_timeoutfor",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
-      "source_location": "L59",
-      "weight": 1.0,
-      "_origin": "ast",
-      "context": "field",
-      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener",
-      "confidence_score": 1.0
+      "target": "org_minimarex_minimaapi_minimaapilistener"
     },
     {
       "relation": "references",
@@ -3681,9 +3862,132 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "context",
-      "confidence_score": 1.0
+      "target": "android_content_context"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "android_os_handler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_cmd"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_dead"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_file"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L133",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_nodeapi"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L157",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_ondestroy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_timeoutfor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast",
+      "context": "field",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener"
     },
     {
       "relation": "references",
@@ -3693,9 +3997,9 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi",
-      "target": "minimaapi",
-      "confidence_score": 1.0
+      "target": "org_minimarex_minimaapi_minimaapi"
     },
     {
       "relation": "method",
@@ -3704,9 +4008,9 @@
       "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb_onerror",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb_onerror"
     },
     {
       "relation": "method",
@@ -3715,9 +4019,9 @@
       "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb_onresult",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb_onresult"
     },
     {
       "relation": "references",
@@ -3727,9 +4031,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "references",
@@ -3739,9 +4043,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_cmd",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "references",
@@ -3751,9 +4055,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_file",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "references",
@@ -3763,9 +4067,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb"
     },
     {
       "relation": "references",
@@ -3775,9 +4079,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_cb_onresult",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_java_jsonobject",
-      "confidence_score": 1.0
+      "target": "org_json_jsonobject"
     },
     {
       "relation": "calls",
@@ -3799,9 +4103,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_nodeapi",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener"
     },
     {
       "relation": "method",
@@ -3810,9 +4114,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener_onenabled",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_pairinglistener_onenabled"
     },
     {
       "relation": "calls",
@@ -3822,9 +4126,9 @@
       "source_location": "L89",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_cmd",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_timeoutfor",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_timeoutfor"
     },
     {
       "relation": "calls",
@@ -3834,9 +4138,9 @@
       "source_location": "L70",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_nodeapi",
-      "target": "minimaapi",
-      "confidence_score": 1.0
+      "target": "minimaapi"
     },
     {
       "relation": "references",
@@ -3846,9 +4150,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_nodeapi",
-      "target": "context",
-      "confidence_score": 1.0
+      "target": "android_content_context"
     },
     {
       "relation": "calls",
@@ -3858,9 +4162,9 @@
       "source_location": "L70",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_nodeapi",
-      "target": "minimaapilistener",
-      "confidence_score": 1.0
+      "target": "minimaapilistener"
     },
     {
       "relation": "calls",
@@ -3870,9 +4174,9 @@
       "source_location": "L123",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_dead",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_dead"
     },
     {
       "relation": "calls",
@@ -3882,9 +4186,9 @@
       "source_location": "L96",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_cmd",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout"
     },
     {
       "relation": "calls",
@@ -3894,9 +4198,9 @@
       "source_location": "L97",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_cmd",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor"
     },
     {
       "relation": "references",
@@ -3906,9 +4210,9 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_file",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_java_uri",
-      "confidence_score": 1.0
+      "target": "android_net_uri"
     },
     {
       "relation": "calls",
@@ -3918,9 +4222,9 @@
       "source_location": "L113",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_file",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_armtimeout"
     },
     {
       "relation": "calls",
@@ -3930,21 +4234,33 @@
       "source_location": "L114",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_file",
-      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor",
+      "target": "minimaapilistener"
     },
     {
       "relation": "references",
-      "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "app/src/main/java/com/eurobuddha/filez/NodeApi.java",
       "source_location": "L133",
       "weight": 1.0,
+      "context": "return_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_nodeapi_nodeapi_listenerfor",
-      "target": "minimaapilistener",
-      "confidence_score": 1.0
+      "target": "org_minimarex_minimaapi_minimaapilistener"
     },
     {
       "relation": "contains",
@@ -3953,9 +4269,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_util",
-      "target": "app_src_main_java_com_eurobuddha_filez_util_util",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_util_util"
     },
     {
       "relation": "method",
@@ -3964,9 +4280,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_util_util",
-      "target": "app_src_main_java_com_eurobuddha_filez_util_util_formatbytes",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_util_util_formatbytes"
     },
     {
       "relation": "method",
@@ -3975,9 +4291,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_util_util",
-      "target": "app_src_main_java_com_eurobuddha_filez_util_util_formatdate",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_util_util_formatdate"
     },
     {
       "relation": "method",
@@ -3986,9 +4302,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_util_util",
-      "target": "app_src_main_java_com_eurobuddha_filez_util_util_getextension",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_util_util_getextension"
     },
     {
       "relation": "method",
@@ -3997,9 +4313,9 @@
       "source_location": "L37",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_util_util",
-      "target": "app_src_main_java_com_eurobuddha_filez_util_util_joinpath",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_util_util_joinpath"
     },
     {
       "relation": "method",
@@ -4008,9 +4324,9 @@
       "source_location": "L42",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_util_util",
-      "target": "app_src_main_java_com_eurobuddha_filez_util_util_parentof",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_util_util_parentof"
     },
     {
       "relation": "method",
@@ -4019,9 +4335,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "app_src_main_java_com_eurobuddha_filez_util_util",
-      "target": "app_src_main_java_com_eurobuddha_filez_util_util_safename",
-      "confidence_score": 1.0
+      "target": "app_src_main_java_com_eurobuddha_filez_util_util_safename"
     },
     {
       "relation": "contains",
@@ -4030,9 +4346,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew__entry",
-      "confidence_score": 1.0
+      "target": "gradlew__entry"
     },
     {
       "relation": "defines",
@@ -4041,9 +4357,9 @@
       "source_location": "L56",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_die",
-      "confidence_score": 1.0
+      "target": "gradlew_die"
     },
     {
       "relation": "defines",
@@ -4052,9 +4368,9 @@
       "source_location": "L176",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_save",
-      "confidence_score": 1.0
+      "target": "gradlew_save"
     },
     {
       "relation": "defines",
@@ -4063,9 +4379,9 @@
       "source_location": "L52",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew",
-      "target": "gradlew_warn",
-      "confidence_score": 1.0
+      "target": "gradlew_warn"
     },
     {
       "relation": "calls",
@@ -4075,9 +4391,9 @@
       "weight": 1.0,
       "context": "call",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew__entry",
-      "target": "gradlew_die",
-      "confidence_score": 1.0
+      "target": "gradlew_die"
     },
     {
       "relation": "calls",
@@ -4087,11 +4403,33 @@
       "weight": 1.0,
       "context": "call",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "gradlew__entry",
-      "target": "gradlew_warn",
-      "confidence_score": 1.0
+      "target": "gradlew_warn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "claude",
+      "target": "claude_filez_working_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "claude_filez_working_rules",
+      "target": "claude_versioning_guardrail_every_code_change_ships_with_a_version_bump"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f5a3592882ad54e5394c5cd5391786a589110bd1"
+  "built_at_commit": "bca55c95d42b1b1cb8f47b679180bdfd27769701"
 }

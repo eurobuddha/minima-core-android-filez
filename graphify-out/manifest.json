@@ -1,7 +1,7 @@
 {
   "app/build.gradle": {
-    "mtime": 1786273883.7629945,
-    "ast_hash": "7ea71ce064a02cff0daadd66e11b3cec",
+    "mtime": 1786444368.0814474,
+    "ast_hash": "2056bc9e45a8a128f53b4901966cae5b",
     "semantic_hash": ""
   },
   "app/src/main/java/com/eurobuddha/filez/FileEntry.java": {
@@ -67,6 +67,21 @@
   "app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png": {
     "mtime": 1784801243.0381727,
     "ast_hash": "cad29534efdab77c33659c0ce81870ea",
+    "semantic_hash": ""
+  },
+  ".githooks/install.sh": {
+    "mtime": 1786883575.7324748,
+    "ast_hash": "f31b37c6d1b5d340a5623f1715457ea0",
+    "semantic_hash": ""
+  },
+  ".githooks/pre-commit": {
+    "mtime": 1786883575.729176,
+    "ast_hash": "03526be838d5dd774506cc1f8b47f38c",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1786883575.7414706,
+    "ast_hash": "1ac1db5b62e53c43c1d2b0be7e1cf621",
     "semantic_hash": ""
   }
 }
