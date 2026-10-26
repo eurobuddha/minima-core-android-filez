@@ -1,5 +1,6 @@
 package com.eurobuddha.filez;
 
+import com.eurobuddha.minimaapi.MinimaAPI;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -58,7 +59,6 @@ import java.util.concurrent.Executors;
  */
 public class MainActivity extends AppCompatActivity {
 
-    public static final String NODE_PKG = "com.eurobuddha.minimacore";
     public static final String PANDAAPPS_PKG = "com.eurobuddha.pandaapps";
     private static final String FILEPROVIDER_AUTHORITY = "com.eurobuddha.filez.fileprovider";
     private static final String IMPORT_DIR = "imports";
@@ -696,9 +696,7 @@ public class MainActivity extends AppCompatActivity {
     private void updateHeaderSoon() { ui.postDelayed(() -> updateHeader(adapter.getItemCount()), 1500); }
 
     private void openMinimaCore() {
-        Intent launch = getPackageManager().getLaunchIntentForPackage(NODE_PKG);
-        if (launch == null) launch = getPackageManager().getLaunchIntentForPackage("com.eurobuddha.minimablock");
-        if (launch == null) launch = getPackageManager().getLaunchIntentForPackage("com.eurobuddha.pandamonium");
+        Intent launch = MinimaAPI.launchNode(this);
         if (launch != null) startActivity(launch);
         else Toast.makeText(this, "Minima Core isn't installed.", Toast.LENGTH_LONG).show();
     }
